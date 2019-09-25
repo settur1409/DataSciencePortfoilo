@@ -13,9 +13,11 @@ Repository containing a portfolio of my subset of data science projects complete
    
  5. [Stock Price prediction: ](https://github.com/settur1409/DataSciencePortfoilo/tree/master/StockPrediction)
    Implemented using intrinio API to collect live/historical stock price data, which is stored in mongoDB collection locally. **Can be extended to export into mongoDB Atlas.** Data is fetched into keras sequential model. From this point, two keras models are deployed to 
-   a. 	Solve a multi-class classification problem:
-     - positive profit zone
-     - No profit zone
-     - Negative profit zone
+   
+   -- 	Solve a multi-class classification problem:
+ - positive profit zone
+ - No profit zone
+ - Negative profit zone
      
-	b. Regression problem to estimate the approximate profit. Solution is implemented using LSTM with keras.
+     
+  --    Regression problem to estimate the approximate profit. Solution is implemented using LSTM with keras.
